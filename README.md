@@ -1,3 +1,23 @@
+ReleaseHelper
+========
+
+### Overview
+
+ReleaseHelper is a library that is designed to help make various calls to the Azure DevOps release api in order to gain valuable information about releases.
+The following methods are available.
+
+- Clone Release Environment &nbsp;
+  * copy an existing environment created by hand and considered the "gold" template
+  * also allows updating the deployment group
+- Get Deployment Errors &nbsp;
+  * Dump out the last x number of deploytment errors in JSON format including summary of the artifacts
+  * Dump out the deploytment errors between two specific dates in JSON format including summary of the artifacts
+- Get Tfs Release Environment Names &nbsp;
+  * Dump out the environment names within a release definition. Useful when you have a ton of environments in a definition.
+
+### Downloads
+
+The latest stable release of ReleaseHelper is available on Nuget or can be downloaded and built from GitHub.
 
 # Contributing
 
